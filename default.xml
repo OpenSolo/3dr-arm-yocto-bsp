@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="eb4563b83be0a57ede4269ab19688af6baa62cd2" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="3dr" revision="imx-3.10.17_1.0.0_ga" name="3dr-yocto-bsp-base" path="sources/base">
+  <project remote="3dr" revision="master" name="3dr-yocto-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
