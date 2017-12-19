@@ -13,12 +13,12 @@
 
   <project remote="oe" revision="eb4563b83be0a57ede4269ab19688af6baa62cd2" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="3dr" revision="2.9.94" name="3dr-yocto-bsp-base" path="sources/base">
+  <project remote="3dr" revision="master" name="3dr-yocto-bsp-base" path="sources/base">
 	<copyfile dest="README.md" src="README.md"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="3dr" revision="2.9.94" name="meta-3dr" path="sources/meta-3dr"/>
+  <project remote="3dr" revision="master" name="meta-3dr" path="sources/meta-3dr"/>
 
   <project remote="freescale" revision="07ad83db0fb67c5023bd627a61efb7f474c52622" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="5a12677ad000a926d23c444266722a778ea228a7" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
